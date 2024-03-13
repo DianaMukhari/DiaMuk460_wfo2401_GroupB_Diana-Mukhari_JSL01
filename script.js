@@ -5,7 +5,7 @@
     let numbers=/\d/;
     let letters=/[a-zA-Z]/;
    
-if(input.startsWith("pet_") ){
+if(input.startsWith("pet_")  && letters.test(input.split('_')[1]) ){
 
 
   result="valid syntax";
